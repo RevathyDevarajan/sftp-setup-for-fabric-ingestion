@@ -6,7 +6,9 @@
 ![Architecture](https://img.shields.io/badge/Architecture-Medallion-B45309?style=flat)
 ![SFTP](https://img.shields.io/badge/SFTP-Bitvise_SSH_Server-2B547E?style=flat)
 
-A portfolio project demonstrating an **end-to-end data ingestion pipeline** built on Microsoft Fabric. The pipeline extracts a daily CSV sales file from a local SFTP server and lands it into a **Bronze Lakehouse** — following the Medallion Architecture pattern (Bronze → Silver → Gold).
+A portfolio project that provides a step-by-step guide for setting up a free local SFTP server to simulate a real-world file source for data engineering projects.
+The repository demonstrates how to configure SFTP on a local machine and use it as a data source in a Microsoft Fabric data pipeline, ingesting CSV files into a Lakehouse Bronze layer following the Medallion Architecture (Bronze → Silver → Gold).
+This setup helps learners and data engineers practice end-to-end ingestion pipelines using realistic file-transfer scenarios commonly used in production environments.
 
 ---
 
