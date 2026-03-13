@@ -244,8 +244,6 @@ The gateway service account cannot reach `localhost` or `127.0.0.1` the same way
 ```
 fabric-sftp-pipeline/
 ├── README.md                              ← this file
-├── docs/
-│   └── SFTP_Pipeline_Documentation.docx  ← full Word document guide
 └── sample-data/
     └── sales_20260301.csv                 ← sample source data
 ```
