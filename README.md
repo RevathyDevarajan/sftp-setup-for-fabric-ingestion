@@ -110,7 +110,7 @@ D:\
 
 Verify the server is running:
 ```powershell
-Test-NetConnection -ComputerName 192.168.1.18 -Port 22
+Test-NetConnection -ComputerName 192.168.1.20 -Port 22
 # TcpTestSucceeded : True
 ```
 
@@ -132,7 +132,7 @@ The gateway service account cannot reach `localhost`. Use your actual network IP
 
 ```powershell
 ipconfig
-# Note the IPv4 Address under your active adapter (e.g. 192.168.1.18)
+# Note the IPv4 Address under your active adapter (e.g. 192.168.1.20)
 ```
 
 ---
@@ -145,7 +145,7 @@ ipconfig
 
    | Field | Value |
    |-------|-------|
-   | Server | `192.168.1.18` (your local IPv4) |
+   | Server | `192.168.1.20` (your local IPv4) |
    | Port | `22` |
    | Connection name | `SFTP_Bitvise` |
    | Data gateway | `[On-premises] Gateway-LocalPC` |
